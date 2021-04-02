@@ -1,0 +1,48 @@
+body
+{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 24px;
+}
+.testImagesResult
+{
+    float: left;
+    margin-left: 10px;
+}
+.testImagesResult hr
+{
+    color: chartreuse;
+    font-size: 25px;
+}
+#idk
+{
+    width: 229px;
+}
+.result
+{
+    color: darkviolet;
+    font-size: 1pc;
+}
+b
+{
+    color: deeppink;
+}
+p
+{
+    color: dodgerblue;
+}
+label
+{
+    color: fuchsia;
+}
+h4
+{
+    color: hotpink;
+}
+h5
+{
+    color: maroon;
+    font-size: 31px;
+    font-weight: 100;
+    font-style: italic;
+}

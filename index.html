@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>MobileNet VS Wolfram</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <label>Wolfram VS MobileNet, which model can identify more images correctly</label>
+        <p class="result">Out of all of the images we've tested, Wolfram Image Identification model got 4 pictures correctly while MobileNet 
+            got 0 pictures correctly. So, Wolfram wins. But, I think that they should improve both models. I think that they should improve MobileNet's
+            identification part and make it identify images which covers the screen, AKA, the type of images I used in testing it for the results
+            on the test, while in Wolfram, I think that they should work on making the identification part a bit more like MobileNet's identification
+            which will alow it in making Wolfram identify more images correctly. I would really like if these improvements were made on both of
+            these models otherwise everything is awesome. :3</p>
+        <ol>
+        <div class="tesImagesResult">
+            <li>
+                <span>
+                    <p>Test Image 1-
+                     <img src="bag.png" class="img-responsive">
+                    </p>
+                </span>
+            </li>
+                  <h4>Output on Wolfram-<b>Pencil sharpener</b></h4>
+                  <h4>Output on MobileNet-<b>window screen</b></h4>
+                <div id="miniResult">
+                     <h5>Result- None get a point.</h5>
+                     <hr>
+                     <label class="text-capitalize">None of them got close to it. It was a bag.</label>
+                     <li>
+                 </div>
+                        <span>
+                            <p>Test Image 2-
+                             <img src="Coloured vases.png" class="img-responsive">
+                            </p>
+                        </span>
+                    </li>
+                          <h4>Output on Wolfram-<b>Earthenware</b></h4>
+                          <h4>Output on MobileNet-<b>window screen</b></h4>
+                        <div id="miniResult">
+                             <h5>Result-Wolfram gets a point :3</h5>
+                             <hr>
+                             <label class="text-capitalize">Wolfram was close to the answer. They were vases.</label>
+                             <li>
+                         </div>
+                <span>
+                    <p>Test Image 3-
+                     <img src="flower.png" class="img-responsive">
+                    </p>
+                </span>
+            </li>
+                  <h4>Output on Wolfram-<b>Beardless Iris</b></h4>
+                  <h4>Output on MobileNet-<b>window screen</b></h4>
+                <div id="miniResult">
+                     <h5>Result-Wolfram gets a point :3</h5>
+                     <hr>
+                     <label class="text-capitalize">Wolfram got the answer. They were flowers.</label>
+                     <li>
+        </div>
+        <span>
+            <p>Test Image 4-
+             <img src="mask.png" class="img-responsive">
+            </p>
+        </span>
+    </li>
+          <h4>Output on Wolfram-<b>Enamelware</b></h4>
+          <h4>Output on MobileNet-<b>window screen</b></h4>
+        <div id="miniResult">
+             <h5>Result-None get a point</h5>
+             <hr>
+             <label class="text-capitalize">None got close to it. It was a mask.</label>
+            <li>
+           </div>
+        <span>
+            <p>Test Image 5-
+             <img src="pen.png" class="img-responsive">
+            </p>
+         </span>
+     </li>
+           <h4>Output on Wolfram-<b>Ballpoint pen</b></h4>
+          <h4>Output on MobileNet-<b>window screen</b></h4>
+          <div id="miniResult">
+             <h5>Result-Wolfram gets a point :3</h5>
+               <hr>
+              <label class="text-capitalize">Wolfram got the answer. It was a pen</label>
+              <li>
+         </div>
+      <span>
+       <p>Test Image 6-
+        <img src="pencil box.png" class="img-responsive">
+       </p>
+      </span>
+  </li>
+    <h4>Output on Wolfram-<b>Alligator clip</b></h4>
+    <h4>Output on MobileNet-<b>window screen</b></h4>
+  <div id="miniResult">
+       <h5>Result-None get a point</h5>
+       <hr>
+       <label class="text-capitalize">None get a point. They were pencil boxes.</label>
+       <li>
+  </div>
+ <span>
+     <p>Test Image 7-
+      <img src="ring.png" id="idk" class="img-responsive">
+     </p>
+ </span>
+ </li>
+   <h4>Output on Wolfram-<b>Paper chain</b></h4>
+   <h4>Output on MobileNet-<b>window screen</b></h4>
+ <div id="miniResult">
+      <h5>Result-None get a point</h5>
+      <hr>
+      <label class="text-capitalize">None of them were close to the answer. It was a ring.</label>
+ </div>
+ <span>
+     <p>Test Image 8-
+      <img src="scale.png" class="img-responsive">
+     </p>
+ </span>
+     </li>
+    <h4>Output on Wolfram-<b>Ruler</b></h4>
+    <h4>Output on MobileNet-<b>window screen</b></h4>
+  <div id="miniResult">
+       <h5>Result-Wolfram gets a point :3</h5>
+       <hr>
+       <label class="text-capitalize">Wolfram got the synonym of the answer. It was a scale.</label>
+  </div>
+        <hr>
+       </div>
+     </ol>
+    </body>
+</html>
